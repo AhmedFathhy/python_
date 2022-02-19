@@ -1,0 +1,7 @@
+def word_count(document, search_term):
+     count = 0
+     words = document.split()
+     for word in words:
+         if word == search_term:
+             count += 1
+     return count
